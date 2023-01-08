@@ -11,22 +11,16 @@
     color : green;
 }
 
-.menu1 {
-    margin-top: 20px;
+.headtext {
+    margin-left: 20px;
 }
 
-.headtext {
-    text-align: left;
-    color: black;
-    background-color: white;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-color: black;
-    border-width: 0;
+.semitext {
+    margin-left: 25px;
 }
 
 .header {
-    height: 120px;
+    height: 100px;
     text-align: center;
     background-color: antiquewhite;
     border-bottom: 1px solid wheat;
@@ -44,6 +38,7 @@
 
 .header_menu ul li {
     display: inline-block;
+    margin-bottom: 1px;
 }
 
 .header_menu ul li a {
@@ -53,15 +48,19 @@
 }
 
 table {
+    width: 80%;
     border:1px solid black;
     margin-left: auto;
     margin-right: auto;
+    table-layout: fixed;
 }
+
+.table-header {
+    background-color: rgba(119, 226, 98, 0.5);
+}
+
 td, tr, th {
     border: 1px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 15px;
     text-align: center;
 }

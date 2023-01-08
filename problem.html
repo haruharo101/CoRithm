@@ -35,20 +35,27 @@
     </header>
     <br><br><br>
     <h3 class="headtext">문제 목록</h3>
-    <p>
+    <p class="semitext">
         현재 Co-Rithm에 등재된 문제의 개수는 <span id="problem-cnt" class="stress"></span> 개 입니다.
     </p>
-    <table>
-        <thead>
-            <tr>
-                <td>문제 ID</td>
-                <td>문제 제목</td>
-                <td>문제 난이도</td>
-            </tr>
-        </thead>
-        <tbody id="problem-list">
-        </tbody>
-    </table>
+    <div class="table-header">
+        <table>
+            <tbody>
+                <tr>
+                    <td>문제 ID</td>
+                    <td>문제 제목</td>
+                    <td>문제 난이도</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="table-content">
+        <table>
+            <tbody id="problem-list">
+            </tbody>
+        </table>
+    </div>
+    
 </body>
 <script src="getproblem.js"></script>
 </html>
