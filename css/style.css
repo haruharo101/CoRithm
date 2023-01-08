@@ -14,14 +14,7 @@
 .menu1 {
     margin-top: 20px;
 }
-ul {
-    float: left;
-}
-li {
-    float: left;
-    margin-right: 20px;
-    list-style: none;
-}
+
 .headtext {
     text-align: left;
     color: black;
@@ -31,17 +24,44 @@ li {
     border-color: black;
     border-width: 0;
 }
-#logo {
-    font-size: 40px;
-    margin-right: 20px;
+
+.header {
+    height: 120px;
+    text-align: center;
+    background-color: antiquewhite;
+    border-bottom: 1px solid wheat;
 }
+
+.header_logo {
+    font: bold;
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+
+.header_menu ul {
+    margin-top: 20px;
+}
+
+.header_menu ul li {
+    display: inline-block;
+}
+
+.header_menu ul li a {
+    display: block;
+    font: bold 14px;
+    margin: 0px 20px;
+}
+
 table {
     border:1px solid black;
+    margin-left: auto;
+    margin-right: auto;
 }
 td, tr, th {
     border: 1px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
 }
