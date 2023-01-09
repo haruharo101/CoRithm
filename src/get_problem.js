@@ -4,7 +4,7 @@ var problem_list = {
     print_problem_list:function () {
         for(let i=0; i<pr_list.length; i++) {
             let list_info = pr_list[i];
-            let tmp = "<tr>";
+            let tmp = "<tr class=\"problem_tr\">";
             for(let j=0; j<2; j++) {
                 tmp += "<td>" + String(list_info[j]) + "</td>";
             }
