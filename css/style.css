@@ -2,6 +2,12 @@
     font-family: 'IBM Plex Sans KR', sans-serif;
     font-family: 'Noto Sans KR', sans-serif;
 }
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
 .stress {
     font-weight: bold;
     color:red;
@@ -21,16 +27,19 @@
 
 .header {
     height: 100px;
-    text-align: center;
     background-color: antiquewhite;
     border-bottom: 1px solid wheat;
 }
 
+.header_logo {
+    text-align: center;
+}
 .header_menu ul {
     margin-top: 20px;
+    text-align: center;
 }
 
-.header_menu ul li {
+.header_menu li {
     display: inline-block;
     margin-bottom: 1px;
 }
@@ -47,13 +56,14 @@
 }
 
 .semihead h1 {
-    font: 30px medium
+    font: 30px medium;
 }
 
 .semihead p {
     font: 20px;
     margin-left: 10px;
 }
+
 table {
     width: 90%;
     border-top: 1px solid black;
