@@ -30,31 +30,32 @@
             </ul>
         </div>
     </header>
-    <div class="semihead">
-        <h1>문제 목록</h1>
-        <p>
-            현재 Co-Rithm에 등재된 문제의 개수는 <span id="problem-cnt" class="stress"></span> 개 입니다.
-        </p>
+    <div id="wrap">
+        <div class="semihead">
+            <h1>문제 목록</h1>
+            <p>
+                현재 Co-Rithm에 등재된 문제의 개수는 <span id="problem-cnt" class="stress"></span> 개 입니다.
+            </p>
+        </div>
+        <div>
+            <table class="table-header">
+                <tbody>
+                    <tr>
+                        <td>문제 ID</td>
+                        <td>문제 제목</td>
+                        <td>문제 난이도</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table class="table-content">
+                <tbody id="problem-list">
+                </tbody>
+            </table>
+        </div>
     </div>
-    
-    <div>
-        <table class="table-header">
-            <tbody>
-                <tr>
-                    <td>문제 ID</td>
-                    <td>문제 제목</td>
-                    <td>문제 난이도</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div>
-        <table class="table-content">
-            <tbody id="problem-list">
-            </tbody>
-        </table>
-    </div>
-    <footer>
+    <footer class="footer">
         <div class="footer-content">
             <h3>Co-Rithm</h3>
             <p>Corithm은 Coding의 Co와 algoRithm의 Rithm을 합친</p>
