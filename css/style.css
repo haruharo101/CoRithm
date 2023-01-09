@@ -110,4 +110,6 @@ a:hover {
 
 progress {
     height: 30px;
+    margin: 0px;
+    padding: 0px;
 }
