@@ -8,7 +8,7 @@ var problem_list = {
             for(let j=0; j<2; j++) {
                 tmp += "<td>" + String(list_info[j]) + "</td>";
             }
-            tmp += "<td><progress class=\"diff\" value=\""+String(list_info[2])+"\" max=\"20\"></progress> <span class=\"diff\" id=\"problem-dif\">"+String(list_info[2])+"</span></td>";
+            tmp += "<td class=\"diff_td\"><progress class=\"diff_pg\" value=\""+String(list_info[2])+"\" max=\"20\"></progress> <span class=\"diff\" id=\"problem-dif\">"+String(list_info[2])+"</span></td>";
             tmp += "</tr>";
             $('#problem-list').append(tmp);
         }

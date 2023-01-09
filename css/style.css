@@ -2,6 +2,10 @@
     font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 ul {
     margin: 0px;
     padding: 0px;
@@ -83,6 +87,12 @@ table {
     margin-top: 10px;
 }
 
+.diff_td {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 td, tr, th {
     border-top: 1px;
     border-bottom: 1px;
@@ -109,13 +119,14 @@ a:hover {
     text-decoration: none;
 }
 
-.diff {
+.diff_pg {
     display: flex;
     justify-content: center;
 }
 
 #problem-dif {
     text-align: right;
+    line-height: 1.8;
 }
 
 progress {
@@ -123,7 +134,7 @@ progress {
     margin-left: 1%;
     margin-right: 5%;
     padding: 0px;
-    width: 15%;
+    width: 20%;
 }
 
 footer {
@@ -134,7 +145,7 @@ footer {
     background: #111;
     height: auto;
     width: 100%;
-    padding-top: 5%;
+    margin-top: 10%;
     color: #fff;
 }
 
