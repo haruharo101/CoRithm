@@ -3,9 +3,16 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-ul, li {
+ul {
     margin: 0px;
     padding: 0px;
+    text-align: center;
+}
+
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
 }
 
 .stress {
@@ -17,30 +24,21 @@ ul, li {
     color : green;
 }
 
-.headtext {
-    margin-left: 20px;
-}
-
-.semitext {
-    margin-left: 25px;
-}
-
 .header {
     height: 100px;
     background-color: antiquewhite;
     border-bottom: 1px solid wheat;
 }
 
-.header_logo {
+.header-logo {
     text-align: center;
 }
-.header_menu ul {
+.header-menu ul {
     margin-top: 20px;
     text-align: center;
 }
 
-.header_menu li {
-    display: inline-block;
+.header-menu li {
     margin-bottom: 1px;
 }
 
@@ -48,6 +46,14 @@ ul, li {
     display: block;
     font: bold 14px;
     margin: 0px 20px;
+}
+
+.headtext {
+    margin-left: 20px;
+}
+
+.semitext {
+    margin-left: 25px;
 }
 
 .semihead {

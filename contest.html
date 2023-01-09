@@ -16,12 +16,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="header">
-        <div class="header_logo">
+        <div class="header-logo">
             <a href="index.html"><h1>Co-Rithm</h1></a>
         </div>
-        <div class="header_menu">
+        <div class="header-menu">
             <ul>
                 <li class="menu1"><a href="problem.html">문제 목록</a></li>
                 <li class="menu1"><a href="contest.html">콘테스트 목록</a></li>
@@ -34,8 +35,25 @@
         <p>현재 시간 : <span id="now-time"></span></p>
     </div>
     <div>
-
+        <table class="table-header">
+            <tbody>
+                <tr>
+                    <td>콘테스트 ID</td>
+                    <td>콘테스트 제목</td>
+                    <td>콘테스트 시작</td>
+                    <td>콘테스트 종료</td>
+                    <td>콘테스트 참가 인원</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <table class="table-content">
+            <tbody id="contest-list">
+            </tbody>
+        </table>
     </div>
 </body>
 <script src="src/get_time.js"></script>
+<script src="src/get_contest.js"></script>
 </html>
