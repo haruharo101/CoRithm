@@ -1,6 +1,5 @@
 * {
     font-family: 'IBM Plex Sans KR', sans-serif;
-    font-family: 'Noto Sans KR', sans-serif;
 }
 
 ul {
@@ -110,15 +109,32 @@ a:hover {
     text-decoration: none;
 }
 
+.diff {
+    display: flex;
+    justify-content: center;
+}
+
+#problem-dif {
+    text-align: right;
+}
+
+progress {
+    height: 20px;
+    margin-left: 1%;
+    margin-right: 5%;
+    padding: 0px;
+    width: 15%;
+}
+
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
     background: #111;
     height: auto;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 5%;
     color: #fff;
 }
 
@@ -130,7 +146,7 @@ footer {
     text-align: center;
 }
 
-.footer-content p{
+.footer-content p {
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
@@ -144,14 +160,4 @@ footer {
 
 #copyright-github:hover {
     background-color: burlywood;
-}
-
-#problem-dif {
-    margin-left: 10px;
-}
-
-progress {
-    height: 30px;
-    margin: 0px;
-    padding: 0px;
 }
