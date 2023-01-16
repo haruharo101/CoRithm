@@ -11,6 +11,7 @@ var problem_list = {
             tmp += "<td class=\"diff_td\"><progress class=\"diff_pg\" value=\""+String(list_info[2])+"\" max=\"20\"></progress> <span class=\"diff\" id=\"problem-dif\">"+String(list_info[2])+"</span></td>";
             tmp += "</tr>";
             $('#problem-list').append(tmp);
+            
         }
     },
 
