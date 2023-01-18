@@ -63,7 +63,7 @@ li {
 #sub-header {
     display: inline-block;
     text-align: left;
-    margin-left: 10vw;
+    margin-left: 15vw;
     margin-top: 0.2vh;
     line-height: 7px;
 }
@@ -119,6 +119,20 @@ table {
     text-align: left;
 }
 
+#IOtable-text {
+    width: 10%;
+    text-align: center;
+}
+
+#IOtable-data {
+    width: 90%;
+    text-align: left;
+}
+
+#IOtable-data:hover {
+    background-color: rgb(231, 248, 183);
+}
+
 .input-output-table {
     margin-left: 0vw;
     margin-right: 0vw;
@@ -153,7 +167,7 @@ td, tr, th {
 }
 
 tr:nth-child(even) {
-    background-color: rgba(220, 220, 220, 0.4);
+    background-color: rgba(177, 160, 160, 0.4);
 }
 
 .diff_pg {
