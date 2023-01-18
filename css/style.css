@@ -8,7 +8,7 @@ html, body {
 }
 
 #wrap {
-    height : 130%;
+    height : 110%;
 }
 
 ul {
@@ -29,14 +29,20 @@ li {
 }
 
 .header {
-    height: 100px;
+    text-align: center;
+    height: 10%;
     background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);  
     border-bottom: 1px solid wheat;
+}
+
+#main-header {
+    display: inline-block;
 }
 
 .header-logo {
     text-align: center;
 }
+
 .header-menu ul {
     margin-top: 20px;
     text-align: center;
@@ -52,12 +58,11 @@ li {
     margin: 0px 20px;
 }
 
-.headtext {
-    margin-left: 20px;
-}
-
-.semitext {
-    margin-left: 25px;
+#sub-header {
+    display: inline-block;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 7px;
 }
 
 .semihead {
@@ -67,15 +72,16 @@ li {
 
 .semihead h1 {
     font: 30px medium;
+    margin-left: 16%;
 }
 
 .semihead p {
     font: 20px;
-    margin-left: 10px;
+    margin-left: 16.5%;
 }
 
 table {
-    width: 90%;
+    width: 60%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     margin-left: auto;

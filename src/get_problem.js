@@ -25,7 +25,22 @@ function getproblem_list() {
     pr_list.push(["100B", "정수 뺄셈", 2]);
     pr_list.push(["100C", "정수 곱셈", 3]);
     pr_list.push(["100D", "정수 나눗셈", 4]);
-    pr_list.push(["test", "ㅁㄴㅇㄹ", 20]);
+    pr_list.push(["100A", "정수 덧셈", 1]);
+    pr_list.push(["100B", "정수 뺄셈", 2]);
+    pr_list.push(["100C", "정수 곱셈", 3]);
+    pr_list.push(["100D", "정수 나눗셈", 4]);
+    pr_list.push(["100A", "정수 덧셈", 1]);
+    pr_list.push(["100B", "정수 뺄셈", 2]);
+    pr_list.push(["100C", "정수 곱셈", 3]);
+    pr_list.push(["100D", "정수 나눗셈", 4]);
+    pr_list.push(["100A", "정수 덧셈", 1]);
+    pr_list.push(["100B", "정수 뺄셈", 2]);
+    pr_list.push(["100C", "정수 곱셈", 3]);
+    pr_list.push(["100D", "정수 나눗셈", 4]);
+    pr_list.push(["100A", "정수 덧셈", 1]);
+    pr_list.push(["100B", "정수 뺄셈", 2]);
+    pr_list.push(["100C", "정수 곱셈", 3]);
+    pr_list.push(["100D", "정수 나눗셈", 4]);
 
     problem_list.print_problem_list();
 }
