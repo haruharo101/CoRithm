@@ -8,7 +8,7 @@ html, body {
 }
 
 #wrap {
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
 }
 
@@ -82,14 +82,46 @@ li {
     margin-left: 1vw;
 }
 
+.problem-statement, .problem-input, .problem-output, .problem-example {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
 table {
     width: 60vw;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
     table-layout: fixed;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#table-header-tr > td {
+    text-align: center;
+}
+
+.problem_tr > td {
+    text-align: center;
+}
+
+.contest_tr > td {
+    text-align: center;
+}
+
+.input-output-table > td {
+    border-top: 1px;
+    border-bottom: 1px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    text-align: left;
+}
+
+.input-output-table {
+    margin-left: 0vw;
+    margin-right: 0vw;
 }
 
 .table-header {
@@ -98,6 +130,7 @@ table {
 
 .table-content {
     margin-top: 0.5vh;
+    cursor: pointer;
 }
 
 .diff_td {
@@ -111,9 +144,8 @@ td, tr, th {
     border-bottom: 1px;
     margin-left: 1vw;
     margin-right: 1vw;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 .contest_tr:hover, .problem_tr:hover {
@@ -131,6 +163,8 @@ tr:nth-child(even) {
 
 #problem-dif {
     text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 progress {
@@ -138,7 +172,8 @@ progress {
     margin-right: 5%;
     padding: 0px;
     width: 90%;
-    margin-top: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 a:link {
