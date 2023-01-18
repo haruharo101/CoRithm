@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Co-Rithm</title>
     <!-- load css -->
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
     <!-- Optional JavaScript -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({            
+            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}            
+        });
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -42,26 +48,37 @@
     </div>
     <div id="wrap">
         <div class="semihead">
-            <h1>콘테스트 목록</h1>
-            <p>현재 시간 : <span id="now-time"></span></p>
+            <h1>100A - 정수 덧셈</h1>
+            <p>시간 제한 : <span>1</span>초</p>
+            <p>메모리 제한 : <span>512</span>MB</p>
         </div>
-        <div>
-            <table class="table-header">
-                <tbody>
-                    <tr id="table-header-tr">
-                        <td>콘테스트 ID</td>
-                        <td>콘테스트 제목</td>
-                        <td>콘테스트 시작</td>
-                        <td>콘테스트 종료</td>
-                        <td>콘테스트 참가 인원</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="problem-statement">
+            <h2>문제</h2>
+            <p>
+                정수 $a, b$ 가 주어진다. 두 정수의 합을 출력한다.
+            </p>
         </div>
-        <div>
-            <table class="table-content">
-                <tbody id="contest-list">
-                </tbody>
+        <div class="problem-input">
+            <h2>입력</h2>
+            <p>
+                첫 번째 줄에 정수 $a, b$ 가 공백으로 구분되어 주어진다.
+                $(1 \lt a, b \lt 10^{4})$
+            </p>
+        </div>
+        <div class="problem-output">
+            <h2>출력</h2>
+            두 정수의 합을 한 줄에 출력한다.
+        </div>
+        <div class="problem-example">
+            <h2>입력/출력 예시</h2>
+            <h4>입력 1</h4>
+            <table class="input-output-table">
+                <tr>
+                    <td>1 2</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                </tr>
             </table>
         </div>
     </div>
@@ -74,6 +91,6 @@
         </div>
     </footer>
 </body>
-<script src="src/get_time.js"></script>
-<script src="src/get_contest.js"></script>
+<script src="../src/get_time.js"></script>
+<script src="../src/get_contest.js"></script>
 </html>
