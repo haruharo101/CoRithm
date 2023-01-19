@@ -9,8 +9,8 @@ html, body {
 }
 
 #wrap {
-    height: 100vh;
-    width: 60vw;
+    height: 150vh;
+    width: 100vw;
 }
 
 ul {
@@ -170,7 +170,7 @@ td, tr, th {
 }
 
 tr:nth-child(even) {
-    background-color: rgba(177, 160, 160, 0.4);
+    background-color: rgba(82, 82, 82, 0.13);
 }
 
 .diff_pg {
