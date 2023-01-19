@@ -1,5 +1,6 @@
 * {
     font-family: 'IBM Plex Sans KR', sans-serif;
+    user-select: auto;
 }
 
 html, body {
@@ -32,8 +33,9 @@ li {
 .header {
     text-align: center;
     height: 130px;
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);  
-    border-bottom: 1px solid wheat;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #ED8F03, #FFB75E);
+    border-image-slice: 1;
 }
 
 #main-header {
@@ -70,7 +72,7 @@ li {
 
 .semihead {
     margin-top: 0.2vh;
-    margin-left: 20vw;
+    margin-left: 15vw;
 }
 
 .semihead h1 {
@@ -83,16 +85,16 @@ li {
 }
 
 .problem-statement, .problem-input, .problem-output, .problem-example {
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
 table {
-    width: 60vw;
+    width: 70vw;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
     table-layout: fixed;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -125,6 +127,7 @@ table {
 }
 
 #IOtable-data {
+    font-family: consolas;
     width: 90%;
     text-align: left;
 }
