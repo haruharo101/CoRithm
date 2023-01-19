@@ -9,8 +9,8 @@ html, body {
 }
 
 #wrap {
-    height: 200vh;
-    width: 100vw;
+    height: 100vh;
+    width: 60vw;
 }
 
 ul {
@@ -217,8 +217,14 @@ footer {
     background: #111;
     height: auto;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 10vh;
+    line-height: 5vh;
+    height: 20vh;
     color: #fff;
+}
+
+footer > p {
+    line-height: 2vh;
 }
 
 .footer-content {
@@ -232,7 +238,7 @@ footer {
 .footer-content p {
     max-width: 70%;
     margin: 1% auto;
-    line-height: 7%;
+    line-height: 2vh;
     font-size: 14px;
     color: #cacdd2;
 }

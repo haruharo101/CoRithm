@@ -15,36 +15,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&family=Noto+Sans+KR:wght@400;900&display=swap" rel="stylesheet">
     <script type="text/javascript">   
-        $(document).ready( function() {
-            $("#headers").load("../header.html");
-            $("#footers").load("../footer.html");
+        $(window).on('load', function() {
+            $("#headers").load("header.html");
+            $("#footers").load("footer.html");
         });
     </script>
 </head>
 
 <body style="background-color:white; height: 100%;">
-    <div class="header">
-        <header id="main-header">
-            <div class="header-logo">
-                <a href="index.html"><h1>Co-Rithm</h1></a>
-            </div>
-            <div class="header-menu">
-                <ul>
-                    <li class="menu1"><a href="problem.html">문제 목록</a></li>
-                    <li class="menu1"><a href="contest.html">콘테스트 목록</a></li>
-                    <li class="menu1"><a href="question.html">질문 및 답변</a></li>
-                </ul>
-            </div>
-        </header>
-        <div id="sub-header">
-            <a href="user_info.html">
-                <h2>Haru_101</h2>
-                <p>푼 문제 수 : <span>0</span></p>
-                <p>등급 : <span>Bronze</span></p>
-                <p>레이팅 : <span>0</span></p>
-            </a>
-        </div>
-    </div>
+    <div id="headers"></div>
     <div id="wrap">
         <div class="semihead">
             <h1>Log-in</h1>
@@ -56,13 +35,6 @@
             <button>Log-in</button>
         </div>
     </div>
-    <footer>
-        <div class="footer-content">
-            <h3>Co-Rithm</h3>
-            <p>Co-Rithm은 Coding의 Co와 algoRithm의 Rithm을 합친</p>
-            <p>온라인 알고리즘 경진대회 사이트입니다.</p>
-            <p>Copyright &copy;2023 <a href="https://github.com/haruharo101" id="copyright-github">Haru_101</a></p>
-        </div>
-    </footer>
+    <footer id="footers"></div>
 </body>
 </html>
